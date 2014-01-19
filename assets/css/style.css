@@ -432,14 +432,7 @@ a.open.source:hover { color: #00acef; border-color: #00acef; }
 
 #org-list ul {
   list-style: none;
-}
-
-#org-list h2 {
-  border-bottom: 1px solid #999;
-}
-
-#org-list h3 {
-  border-bottom: 1px solid #EEE;
+  margin: 0;
 }
 
 .avatar {

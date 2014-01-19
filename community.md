@@ -33,9 +33,9 @@ permalink: /community/
           <a href="http://github.com/{{ org }}" title="{{ org }}">
             <img class="avatar img-polaroid" src="https://github.com/{{ org }}.png" alt= "{{ org }}" target="_blank"/>
           </a>
-          <h3>
-            <a href="http://github.com/{{ org }}" title="{{ org }}">{{ org }}</a>
-          </h3>
+          <h4>
+            <a href="http://github.com/{{ org }}" title="{{ org }}">github/{{ org }}</a>
+          </h4>
         </li>
       {% endfor %}
      </ul>
@@ -81,13 +81,13 @@ Neither the inclusion of a logo or seal above nor the fact that a particular gov
 
 <script type="text/javascript">
   var viewListLnk = document.getElementById("view-list");
-  var viewAvatarLnk = document.getElementById("view-avatar"); 
+  var viewAvatarLnk = document.getElementById("view-avatar");
   var orgList = document.getElementById("org-list");
   var orgAvatar = document.getElementById("org-avatars");
- 
+
   viewListLnk.onclick = function() {
-    orgAvatar.style.display = 'none'; 
-    orgList.style.display = 'block'; 
+    orgAvatar.style.display = 'none';
+    orgList.style.display = 'block';
   }
 
   viewAvatarLnk.onclick = function() {
