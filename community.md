@@ -34,7 +34,7 @@ permalink: /community/
             <img class="avatar img-polaroid" src="https://github.com/{{ org }}.png" alt= "{{ org }}" target="_blank"/>
           </a>
           <h4>
-            <a href="http://github.com/{{ org }}" title="{{ org }}">github/{{ org }}</a>
+            <a href="http://github.com/{{ org }}" title="{{ org }}">@{{ org }}</a>
           </h4>
         </li>
       {% endfor %}
