@@ -12,7 +12,7 @@ GEM
       ffi (>= 1.3.0)
       mime-types (~> 1.18)
     fast-stemmer (1.0.2)
-    ffi (1.9.3)
+    ffi (1.14.2)
     github-pages (11)
       RedCloth (= 4.2.9)
       jekyll (= 1.3.1)
